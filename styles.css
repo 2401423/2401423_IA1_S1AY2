@@ -1,11 +1,93 @@
-b {color:darkblue;font-family:ariel;}
-p  {color:blue;font-family:ariel;}
-h1 {text-shadow:4PX 4PX white;color:darkblue;text-align:center;}
-h2 {color:darkblue;font-family:arial;text-align:center;}
-h3 {color:darkblue; text-decoration:underline;font-family:arial;}
-ol {color:blue;font-family:ariel;}
-ul {color:blue;font-family:ariel;}
-tr {color:black;font-family:ariel;}
-body {padding-right:2%;padding-left:2%;margin-top:10px;margin-bottom:50px;}
+* {
+  font-family: Arial;
+}
+
+b {
+  color: darkblue;
+}
+
+p {
+  color: blue;
+}
+
+h1 {
+  text-shadow: 4px 4px white;
+  color: darkblue;
+  text-align: center;
+}
+
+h2 {
+  color: darkblue;
+  text-align: center;
+}
+
+h3 {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+ol, ul {
+  color: blue;
+}
+
+tr {
+  color: black;
+}
+
+body {
+  padding-right: 1%;
+  padding-left: 1%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+footer {
+  background-color: #f0f8ff;   
+  text-align: center;          
+  padding: 10px;
+  margin-top: 30px;
+  border-top: 2px solid darkblue;
+  font-size: 1 em;
+}
+
+footer a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+@media (min-width: 600px) {
+  body {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  p, li {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 950px) {
+  body {
+    max-width: 1000px;
+    margin: 0 auto;  
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p, li {
+    font-size: 1em;
+  }
+}	
 
 	
+
